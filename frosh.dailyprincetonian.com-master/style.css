@@ -34,7 +34,7 @@ html, body {
   padding-top: 16px;
   font-family: sofia-pro, sans-serif;
   color: #1e3d59;
-  padding-bottom: 16px;
+  padding-bottom: 5px;
   
 }
 
@@ -456,6 +456,12 @@ input[type=text], select {
    font-size: 1em;
 }
 
+#top h4 {
+  font-size: 22px;
+  font-weight:normal;
+  color: #4ca0c7;
+}
+
 
 
 @media screen and (max-width: 1250px){
@@ -566,6 +572,10 @@ input[type=text], select {
 
 .btn1 {
   font-size: 15px;
+}
+
+#top h4 {
+  font-size: 18px;
 }
 
 }
