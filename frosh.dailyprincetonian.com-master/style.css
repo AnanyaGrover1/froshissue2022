@@ -456,7 +456,7 @@ input[type=text], select {
    font-size: 1em;
 }
 
-#top h4 {
+#top h4, #top-editor h4 {
   font-size: 22px;
   font-weight:normal;
   color: #4ca0c7;
@@ -504,6 +504,29 @@ input[type=text], select {
     margin-top: -30px;
   }
 
+  #top-editor {
+    width: 100%;
+    height: auto;
+    background-color:#fff;
+    color: #1e3d59;
+    padding-top: 30px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 30px;
+    font-family: sofia-pro-soft, sans-serif;
+    font-size: 18px;
+    line-height: 1.5em;
+    box-shadow: 
+        0px 2px 4px rgba(60, 60, 60, 0.1);  
+  }
+
+  #subtitle-editor {
+    text-align: center;
+  }
+
+  #back-editor {
+    color: #4ca0c7;
+  }
 
 
 @media screen and (max-width: 1250px){
@@ -616,7 +639,7 @@ input[type=text], select {
   font-size: 15px;
 }
 
-#top h4 {
+#top h4, #top-editor h4 {
   font-size: 18px;
 }
 
