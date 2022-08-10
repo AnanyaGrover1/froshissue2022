@@ -375,11 +375,20 @@ input[type=text], select {
     margin-top: 20px;
   }
 
-  .footer h2{
+  .footer-editor{
+    clear: both;
+    width: 100%;
+    background-color: #ff9600;
+    text-align: center;
+    color: white;
+    padding: 15px;
+  }
+
+  .footer h2, .footer-editor h2{
         font-family: sofia-pro, sans-serif;
   }
 
-  .footer p{
+  .footer p, .footer-editor p{
     font-size: 18px;
   }
 
@@ -528,6 +537,9 @@ input[type=text], select {
     color: #4ca0c7;
   }
 
+  .footer #credit, .footer-editor #credit {
+    font-size: 21px;
+  }
 
 @media screen and (max-width: 1250px){
   .content{
