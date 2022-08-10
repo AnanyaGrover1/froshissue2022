@@ -8,7 +8,7 @@ html, body {
 }
 
 .tag{
-  background: #ff9600;
+  background: rgb(255, 138, 80);
   padding:3px 7px;
   font-size:14px;
   color:#fff;
@@ -178,7 +178,7 @@ width: 65%;
 	font-family: sofia-pro-soft, sans-serif;
 }
 body{
-	background-color: rgba(253, 204, 146, 0.2);
+	background-color: rgba(255, 127, 80, 0.120);
 }
 h1{
 	text-align: center;
@@ -267,7 +267,7 @@ input[type=text], select {
 
 #subscribe-button {
   width: 100%;
-  background-color: #ff9600;
+  background-color: rgb(255, 138, 80);
   opacity: 1.0;
   color: white;
   padding: 14px 20px;
@@ -463,6 +463,7 @@ input[type=text], select {
    z-index:1;
    margin-right: 10px;
    font-size: 1em;
+   color: #1e3d59;
 }
 
 #top h4, #top-editor h4 {
@@ -797,7 +798,7 @@ body{
 }
 
 .btn1.active {
-  background-color: #666;
+  background-color: #1e3d59;
   color: white;
 }
 
