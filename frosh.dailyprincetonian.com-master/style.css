@@ -542,6 +542,24 @@ input[type=text], select {
     font-size: 21px;
   }
 
+  .credit-advice {
+    color: #4ca0c7;
+    font-style: italic;
+    font-size: 18px;
+  }
+
+  #content-advice p {
+    font-size: 22px;
+  }
+
+  .right-advice {
+    padding-left: 20%;
+  }
+
+  .left-advice {
+    padding-right: 20%;
+  }
+
 @media screen and (max-width: 1250px){
   .content{
 	width: 67vw;
