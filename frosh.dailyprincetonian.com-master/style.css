@@ -1,8 +1,11 @@
 html, body {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   font-family: sofia-pro, sans-serif;
+  width:100%;
+
 }
+
 .name-logo {
   font-family: minion-pro, times, serif; margin: 0; padding: 0; margin-top: 10px; font-size: 24px; text-align: center;
 }
@@ -95,6 +98,11 @@ html, body {
 
 .topnav-right {
   float: right;
+  overflow: hidden;
+  background-color: #1e3d59;
+  box-shadow: 0px 1px 2px rgba(50, 50, 50, .1), 
+		0px 2px 4px rgba(60, 60, 60, 0.1);
+   z-index:1;
 }
 
 
@@ -154,7 +162,6 @@ font-size: 20px;
 
 .container{
 float: left;
-
 padding-left: 20px;
 padding-right: 20px;
 }
@@ -187,7 +194,7 @@ h1{
 }
 .content{
 	width: 65vw;
-	height: 260px;
+	height: auto;
 	margin: 20px 0;
 	background-color: #fff;
 	 box-shadow: 0px 1px 2px rgba(50, 50, 50, .1), 
@@ -245,12 +252,14 @@ img{
   width: 100%;
   height: 100%;
   border-radius: 5px;
+  object-fit: cover;
 }
 
 .thumbnail{
   width: 190px;
   height: 150px;
   margin-top:10px;
+
 
 }
 
@@ -300,7 +309,7 @@ input[type=text], select {
   display: grid;
   font-family: sofia-pro, sans-serif;
   margin-right: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .preorder p {
     font-family: sofia-pro-soft, sans-serif;
@@ -477,6 +486,12 @@ input[type=text], select {
   font-size: 22px;
   font-weight:normal;
   color: #4ca0c7;
+  margin-bottom: 0.3rem;
+}
+
+#top h3{
+  margin-top: 0rem;
+  color: #4ca0c7;
 }
 
 .cartoon{
@@ -570,7 +585,7 @@ input[type=text], select {
     padding-bottom: 30px;
     font-family: sofia-pro-soft, sans-serif;
     font-size: 18px;
-    line-height: 1.5em;
+    line-height: 2em;
     box-shadow: 
         0px 2px 4px rgba(60, 60, 60, 0.1);  
   }
@@ -578,6 +593,13 @@ input[type=text], select {
   #subtitle-editor {
     text-align: center;
   }
+
+  #subtitle-editor-2 {
+    text-align: center;
+    margin: 0px;
+  }
+ 
+
 
   #back-editor {
     color: #4ca0c7;
@@ -643,7 +665,7 @@ input[type=text], select {
   .content{
     display: block;
 	width: 67vw;
-	height: 420px;
+	height: auto;
   margin: 20px 0;
   text-align: center;
   margin-top: 0px;
@@ -709,7 +731,15 @@ input[type=text], select {
 
 .topnav{
   margin-top: 0vh;
+  width: 100vw;
 }
+
+.topnav-right{
+  margin-left: 35%;
+  margin-right: 35%;
+}
+
+
 
 .btn1 {
   font-size: 15px;
@@ -719,9 +749,6 @@ input[type=text], select {
   font-size: 18px;
 }
 
-}
-
-@media screen and (max-width: 1200px) {
 
 
   #title{
@@ -738,9 +765,7 @@ max-width: 100%;
 width: 100vw;
 }
 
-body{
-  width: 100vw;
-}
+
 
 .sidebar{
   width: 100%;
@@ -767,6 +792,7 @@ body{
   text-align: center;
 
 }
+
 
 .ad img, .cartoon img{
   
@@ -810,14 +836,20 @@ body{
 
 
 @media screen and (max-width: 550px) {
+
+  
   
 .thumbnail{
   width: 200px;
   height: 150px;
 }
 
+.content-body{
+  width: 100vw;
+}
+
 .content{
-  height: 480px;
+  height: auto;
   width: 100%;
 }
 
@@ -826,7 +858,7 @@ body{
 }
 
 
-.ad, .cartoon{
+.ad, .cartoon, .crossword{
   text-align: center;
   width: 100%;
   display: flex;
@@ -836,9 +868,9 @@ body{
   
 }
 
-.ad img, .cartoon img{
+/* .ad img, .cartoon img{
   margin-left: 20px;
-}
+} */
 
 
 
@@ -848,13 +880,14 @@ body{
   
 }
 
-.container sidebar{
+.container {
   width: 100%;
   margin: 0;
 }
 
 #myBtnContainer{
-  margin-left: 2.1rem ;
+  margin-left: 1.2rem ;
+  padding-top: 0.5rem;
 }
 
 
