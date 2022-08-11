@@ -633,6 +633,11 @@ input[type=text], select {
     padding-right: 20%;
   }
 
+  .campus-demo {
+    margin:auto;
+    text-align:center;
+  }
+
 @media screen and (max-width: 1250px){
   .content{
 	width: 67vw;
