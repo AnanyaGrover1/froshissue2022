@@ -752,11 +752,6 @@ input[type=text], select {
   width: 100vw;
 }
 
-.topnav-right{
-  margin-left: 35%;
-  margin-right: 35%;
-}
-
 
 
 .btn1 {
@@ -855,7 +850,9 @@ width: 100vw;
 
 @media screen and (max-width: 550px) {
 
-  
+  .topnav-right {
+    display: none;
+ }
   
 .thumbnail{
   width: 200px;
