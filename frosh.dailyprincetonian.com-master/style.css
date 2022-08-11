@@ -638,6 +638,13 @@ input[type=text], select {
     text-align:center;
   }
 
+  .campus-subtitle {
+    text-decoration: none;
+    text-align:center;
+    color: #4ca0c7;
+    font-size:30px;
+  }
+
 @media screen and (max-width: 1250px){
   .content{
 	width: 67vw;
