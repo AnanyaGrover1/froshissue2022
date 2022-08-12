@@ -561,8 +561,6 @@ input[type=text], select {
     width: 300px; 
     /* height: 250px;  */
     border-radius: 0;
-    
-    
     }
   
     .crossword h3{
@@ -807,15 +805,15 @@ width: 100vw;
 }
 
 
-.ad img, .cartoon img{
+.ad img, .cartoon img, .crossword img{
   
   width: 300px;
-  height: fit-content; 
+  height: auto; 
 
 
 }
 
-.ad, .cartoon {
+.ad, .cartoon, .crossword {
   width: 90%;
   max-width: 100%;
   margin-right: 0px;
